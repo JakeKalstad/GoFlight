@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"os"
 )
 
 type Passengers struct {
@@ -24,24 +25,24 @@ type PermittedDepartureTime struct {
 }
 
 type RequestSlice struct {
-	Kind                   string                 `json:kind`
-	Origin                 string                 `json:origin`
-	Destination            string                 `json:destination`
-	Date                   string                 `json:date`
-	MaxStops               int                    `json:maxStops`
-	MaxConnectionDuration  int                    `json:maxConnectionDuration`
-	PreferredCabin         string                 `json:preferredCabin`
-	PermittedDepartureTime PermittedDepartureTime `json:permittedDepartureTime`
-	PermittedCarrier       []string               `json:permittedCarrier`
-	ProhibitedCarrier      []string               `json:prohibitedCarrier`
+	Kind                   string                  `json:kind`
+	Origin                 string                  `json:origin`
+	Destination            string                  `json:destination`
+	Date                   string                  `json:date`
+	MaxStops               int                     `json:maxStops`
+	MaxConnectionDuration  int                     `json:maxConnectionDuration`
+	PreferredCabin         string                  `json:preferredCabin`
+	PermittedDepartureTime *PermittedDepartureTime `json:permittedDepartureTime`
+	PermittedCarrier       []string                `json:permittedCarrier`
+	ProhibitedCarrier      []string                `json:prohibitedCarrier`
 }
 
 type Request struct {
-	Passengers  Passengers     `json:passengers`
-	Slice       []RequestSlice `json:slice`
-	MaxPrice    string         `json:maxPrice`
-	SaleCountry string         `json:saleCountry`
-	Refundable  string         `json:refundable`
+	Passengers  *Passengers     `json:passengers`
+	Slice       []*RequestSlice `json:slice`
+	MaxPrice    string          `json:maxPrice`
+	SaleCountry string          `json:saleCountry`
+	Refundable  string          `json:refundable`
 }
 
 type City struct {
@@ -81,12 +82,12 @@ type Carrier struct {
 }
 
 type TripData struct {
-	Kind     string   `json:kind`
-	Airport  Airport  `json:airport`
-	City     City     `json:city`
-	Aircraft Aircraft `json:aircraft`
-	Tax      Tax      `json:tax`
-	Carrier  Carrier  `json:carrier`
+	Kind     string      `json:kind`
+	Airport  []*Airport  `json:airport`
+	City     []*City     `json:city`
+	Aircraft []*Aircraft `json:aircraft`
+	Tax      []*Tax      `json:tax`
+	Carrier  []*Carrier  `json:carrier`
 }
 
 type TripOption struct {
@@ -95,13 +96,13 @@ type TripOption struct {
 	SaleTotal string `json:saleTotal`
 }
 type Fare struct {
-	Kind        string  `json:kind`
-	ID          string  `json:id`
-	Carrier     Carrier `json:carrier`
-	Origin      string  `json:origin`
-	Destination string  `json:destination`
-	BasisCode   string  `json:basisCode`
-	Private     bool    `json:private`
+	Kind        string   `json:kind`
+	ID          string   `json:id`
+	Carrier     *Carrier `json:carrier`
+	Origin      string   `json:origin`
+	Destination string   `json:destination`
+	BasisCode   string   `json:basisCode`
+	Private     bool     `json:private`
 }
 
 type Price struct {
@@ -118,38 +119,38 @@ type BagDescriptor struct {
 }
 
 type FreeBaggageOption struct {
-	Kind       string        `json:kind`
-	Descriptor BagDescriptor `json:bagDescriptor`
+	Kind       string         `json:kind`
+	Descriptor *BagDescriptor `json:bagDescriptor`
 }
 
 type SegmentPrice struct {
-	Kind               string              `json:kind`
-	FareID             string              `json:fareId`
-	SegmentID          string              `json:segmentId`
-	FreeBaggageOptions []FreeBaggageOption `json:freeBaggageOption`
-	Kilos              int                 `json:kilos`
-	KilosPerPiece      int                 `json:kilosPerPiece`
-	Pieces             int                 `json:pieces`
-	Pounds             int                 `json:pounds`
+	Kind               string               `json:kind`
+	FareID             string               `json:fareId`
+	SegmentID          string               `json:segmentId`
+	FreeBaggageOptions []*FreeBaggageOption `json:freeBaggageOption`
+	Kilos              int                  `json:kilos`
+	KilosPerPiece      int                  `json:kilosPerPiece`
+	Pieces             int                  `json:pieces`
+	Pounds             int                  `json:pounds`
 }
 
 type Trips struct {
-	Kind                string         `json:kind`
-	RequestId           string         `json:requestId`
-	Data                TripData       `json:data`
-	Options             TripOption     `json:tripOption`
-	Pricing             []Price        `json:pricing`
-	SegmentPricing      []SegmentPrice `json:segmentPricing`
-	BaseFareTotal       string         `json:baseFareTotal`
-	SaleFareTotal       string         `json:saleFareTotal`
-	SaleTaxTotal        string         `json:saleTaxTotal`
-	SaleTotal           string         `json:saleTotal`
-	Passengers          Passengers     `json:passengers`
-	Tax                 Tax            `json:tax`
-	FareCalculation     string         `json:fareCalculation`
-	LatestTicketingTime string         `json:latestTicketingTime`
-	PTC                 string         `json:ptc`
-	Refundable          bool           `json:refundable`
+	Kind                string          `json:kind`
+	RequestId           string          `json:requestId`
+	Data                *TripData       `json:data`
+	Options             *TripOption     `json:tripOption`
+	Pricing             []*Price        `json:pricing`
+	SegmentPricing      []*SegmentPrice `json:segmentPricing`
+	BaseFareTotal       string          `json:baseFareTotal`
+	SaleFareTotal       string          `json:saleFareTotal`
+	SaleTaxTotal        string          `json:saleTaxTotal`
+	SaleTotal           string          `json:saleTotal`
+	Passengers          *Passengers     `json:passengers`
+	Tax                 *Tax            `json:tax`
+	FareCalculation     string          `json:fareCalculation`
+	LatestTicketingTime string          `json:latestTicketingTime`
+	PTC                 string          `json:ptc`
+	Refundable          bool            `json:refundable`
 }
 
 type Flight struct {
@@ -177,33 +178,47 @@ type Leg struct {
 }
 
 type Segment struct {
-	Kind                        string `json:kind`
-	Duration                    string `json:duration`
-	Flight                      Flight `json:flight`
-	ID                          string `json:id`
-	Cabin                       string `json:cabin`
-	BookingCode                 string `json:bookingCode`
-	BookingCodeCount            int    `json:bookingCodeCount`
-	MarriedSegmentGroup         string `json:marriedSegmentGroup`
-	SubjectToGovernmentApproval bool   `json:subjectToGovernmentApproval`
-	Legs                        []Leg  `json:leg`
-	ConnectionDuration          int    `json:connectionDuration`
+	Kind                        string  `json:kind`
+	Duration                    string  `json:duration`
+	Flight                      *Flight `json:flight`
+	ID                          string  `json:id`
+	Cabin                       string  `json:cabin`
+	BookingCode                 string  `json:bookingCode`
+	BookingCodeCount            int     `json:bookingCodeCount`
+	MarriedSegmentGroup         string  `json:marriedSegmentGroup`
+	SubjectToGovernmentApproval bool    `json:subjectToGovernmentApproval`
+	Legs                        []*Leg  `json:leg`
+	ConnectionDuration          int     `json:connectionDuration`
 }
 
 type ResponseSlice struct {
-	Kind     string    `json:kind`
-	Duration string    `json:duration`
-	Segment  []Segment `json:segment`
+	Kind     string     `json:kind`
+	Duration string     `json:duration`
+	Segment  []*Segment `json:segment`
 }
 
 type Response struct {
-	Kind  string          `json:kind`
-	Trips Trips           `json:trips`
-	Slice []ResponseSlice `json:slice`
+	Kind  string           `json:kind`
+	Trips Trips            `json:trips`
+	Slice []*ResponseSlice `json:slice`
 }
 
 type GoFlyer interface {
 	GetFlight(Request) (Response, error)
+}
+
+type MockFlight struct {
+}
+
+func (flight MockFlight) GetFlight(apiRequest Request) (Response, error) {
+	response := Response{}
+	file, e := ioutil.ReadFile("test_response.json")
+	if e != nil {
+		fmt.Printf("File error: %v\n", e)
+		os.Exit(1)
+	}
+	err := json.Unmarshal(file, &response)
+	return response, err
 }
 
 type GoFlight struct {
@@ -215,9 +230,7 @@ func (flight *GoFlight) GetFlight(apiRequest Request) (Response, error) {
 	fmt.Println("URL:>", url)
 	jsonData, err := json.Marshal(apiRequest)
 	req, err := http.NewRequest("POST", url, bytes.NewBuffer(jsonData))
-	req.Header.Set("X-Custom-Header", "myvalue")
 	req.Header.Set("Content-Type", "application/json")
-
 	client := &http.Client{}
 	resp, err := client.Do(req)
 	if err != nil {
@@ -225,8 +238,6 @@ func (flight *GoFlight) GetFlight(apiRequest Request) (Response, error) {
 	}
 	defer resp.Body.Close()
 
-	fmt.Println("response Status:", resp.Status)
-	fmt.Println("response Headers:", resp.Header)
 	var response Response
 	body, _ := ioutil.ReadAll(resp.Body)
 	err = json.Unmarshal(body, &response)
