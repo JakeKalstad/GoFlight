@@ -1,0 +1,2809 @@
+{
+  "kind": "qpxExpress#tripsSearch",
+  "trips": {
+    "kind": "qpxexpress#tripOptions",
+    "requestId": "HxbaFwLOWSMi5uoRO0ODPh",
+    "data": {
+      "kind": "qpxexpress#data",
+      "airport": [{
+        "kind": "qpxexpress#airportData",
+        "code": "EWR",
+        "city": "EWR",
+        "name": "Newark Liberty International"
+      }, {
+        "kind": "qpxexpress#airportData",
+        "code": "JFK",
+        "city": "NYC",
+        "name": "New York John F Kennedy International"
+      }, {
+        "kind": "qpxexpress#airportData",
+        "code": "LAX",
+        "city": "LAX",
+        "name": "Los Angeles International"
+      }],
+      "city": [{
+        "kind": "qpxexpress#cityData",
+        "code": "EWR",
+        "name": "Newark"
+      }, {
+        "kind": "qpxexpress#cityData",
+        "code": "LAX",
+        "name": "Los Angeles"
+      }, {
+        "kind": "qpxexpress#cityData",
+        "code": "NYC",
+        "name": "New York"
+      }],
+      "aircraft": [{
+        "kind": "qpxexpress#aircraftData",
+        "code": "320",
+        "name": "Airbus A320"
+      }, {
+        "kind": "qpxexpress#aircraftData",
+        "code": "32S",
+        "name": "Airbus A320"
+      }, {
+        "kind": "qpxexpress#aircraftData",
+        "code": "752",
+        "name": "Boeing 757"
+      }, {
+        "kind": "qpxexpress#aircraftData",
+        "code": "757",
+        "name": "Boeing 757"
+      }, {
+        "kind": "qpxexpress#aircraftData",
+        "code": "777",
+        "name": "Boeing 777"
+      }],
+      "tax": [{
+        "kind": "qpxexpress#taxData",
+        "id": "ZP",
+        "name": "US Flight Segment Tax"
+      }, {
+        "kind": "qpxexpress#taxData",
+        "id": "AY_001",
+        "name": "US September 11th Security Fee"
+      }, {
+        "kind": "qpxexpress#taxData",
+        "id": "US_001",
+        "name": "US Transportation Tax"
+      }, {
+        "kind": "qpxexpress#taxData",
+        "id": "XF",
+        "name": "US Passenger Facility Charge"
+      }],
+      "carrier": [{
+        "kind": "qpxexpress#carrierData",
+        "code": "B6",
+        "name": "Jetblue Airways Corporation"
+      }, {
+        "kind": "qpxexpress#carrierData",
+        "code": "UA",
+        "name": "United Airlines, Inc."
+      }, {
+        "kind": "qpxexpress#carrierData",
+        "code": "VX",
+        "name": "Virgin America Inc."
+      }]
+    },
+    "tripOption": [{
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100I",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 375,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 375,
+          "flight": {
+            "carrier": "VX",
+            "number": "165"
+          },
+          "id": "Gzs9wNxQWkk0Gb8a",
+          "cabin": "COACH",
+          "bookingCode": "N",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LfV5T-GX1TU5nDxW",
+            "aircraft": "320",
+            "arrivalTime": "2016-05-05T15:45-07:00",
+            "departureTime": "2016-05-05T12:30-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "A",
+            "destinationTerminal": "3",
+            "duration": 375,
+            "onTimePerformance": 100,
+            "mileage": 2447,
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 320,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 320,
+          "flight": {
+            "carrier": "VX",
+            "number": "166"
+          },
+          "id": "G5efRSidlRoToRdO",
+          "cabin": "COACH",
+          "bookingCode": "N",
+          "bookingCodeCount": 5,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LWjfbF4MAPv7YauZ",
+            "aircraft": "320",
+            "arrivalTime": "2016-05-07T21:00-04:00",
+            "departureTime": "2016-05-07T12:40-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "3",
+            "destinationTerminal": "A",
+            "duration": 320,
+            "onTimePerformance": 80,
+            "mileage": 2447,
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AhaQCeU1QRLUW7Jgwe/Ngi/cRajC/E/xhGWE1c5qOOS6",
+          "carrier": "VX",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "N10NR"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AhaQCeU1QRLUW7Jgwe/Ngi/cRajC/E/xhGWE1c5qOOS6",
+          "carrier": "VX",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "N10NR"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AhaQCeU1QRLUW7Jgwe/Ngi/cRajC/E/xhGWE1c5qOOS6",
+          "segmentId": "Gzs9wNxQWkk0Gb8a"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AhaQCeU1QRLUW7Jgwe/Ngi/cRajC/E/xhGWE1c5qOOS6",
+          "segmentId": "G5efRSidlRoToRdO"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR VX LAX 124.65N10NR VX EWR 124.65N10NR USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100J",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 371,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 371,
+          "flight": {
+            "carrier": "B6",
+            "number": "2023"
+          },
+          "id": "GKNuGmdXUDtXWpP5",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "Ls5+i4tH40kpqh3K",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-06T01:51-07:00",
+            "departureTime": "2016-05-05T22:40-04:00",
+            "origin": "JFK",
+            "destination": "LAX",
+            "originTerminal": "5",
+            "destinationTerminal": "3",
+            "duration": 371,
+            "onTimePerformance": 50,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 325,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 325,
+          "flight": {
+            "carrier": "B6",
+            "number": "1124"
+          },
+          "id": "GK+QNpEZIVnRGR-n",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "Lvs7YtIhuLDeIiX4",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-08T00:55-04:00",
+            "departureTime": "2016-05-07T16:30-07:00",
+            "origin": "LAX",
+            "destination": "JFK",
+            "originTerminal": "3",
+            "destinationTerminal": "5",
+            "duration": 325,
+            "onTimePerformance": 70,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "NYC",
+          "destination": "LAX",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "LAX",
+          "destination": "NYC",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "GKNuGmdXUDtXWpP5"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "GK+QNpEZIVnRGR-n"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "NYC B6 LAX 124.65PITAUEN5 B6 NYC 124.65PITAUEN5 USD 249.30 END ZP JFK LAX XT 18.70US 8.00ZP 11.20AY 9.00XF JFK4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100C",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "1960"
+          },
+          "id": "GJitEhOJ0fWfRN1O",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 2,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LdKhJrx-IXt4z8pe",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T13:52-07:00",
+            "departureTime": "2016-05-05T10:59-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "onTimePerformance": 70,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 324,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 324,
+          "flight": {
+            "carrier": "UA",
+            "number": "642"
+          },
+          "id": "GWRM+gVke0QimZzF",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 2,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LtG+FdMYzs7N3NUY",
+            "aircraft": "752",
+            "arrivalTime": "2016-05-07T18:40-04:00",
+            "departureTime": "2016-05-07T10:16-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 324,
+            "onTimePerformance": 70,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GWRM+gVke0QimZzF"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GJitEhOJ0fWfRN1O"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100D",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 365,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 365,
+          "flight": {
+            "carrier": "VX",
+            "number": "161"
+          },
+          "id": "G67hz-ujxGddK0Kj",
+          "cabin": "COACH",
+          "bookingCode": "N",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LUOckkFEOSyBX8oy",
+            "aircraft": "320",
+            "arrivalTime": "2016-05-05T12:10-07:00",
+            "departureTime": "2016-05-05T09:05-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "A",
+            "destinationTerminal": "3",
+            "duration": 365,
+            "onTimePerformance": 75,
+            "mileage": 2447,
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 320,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 320,
+          "flight": {
+            "carrier": "VX",
+            "number": "166"
+          },
+          "id": "G5efRSidlRoToRdO",
+          "cabin": "COACH",
+          "bookingCode": "N",
+          "bookingCodeCount": 5,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LWjfbF4MAPv7YauZ",
+            "aircraft": "320",
+            "arrivalTime": "2016-05-07T21:00-04:00",
+            "departureTime": "2016-05-07T12:40-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "3",
+            "destinationTerminal": "A",
+            "duration": 320,
+            "onTimePerformance": 80,
+            "mileage": 2447,
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AhaQCeU1QRLUW7Jgwe/Ngi/cRajC/E/xhGWE1c5qOOS6",
+          "carrier": "VX",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "N10NR"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AhaQCeU1QRLUW7Jgwe/Ngi/cRajC/E/xhGWE1c5qOOS6",
+          "carrier": "VX",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "N10NR"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AhaQCeU1QRLUW7Jgwe/Ngi/cRajC/E/xhGWE1c5qOOS6",
+          "segmentId": "G67hz-ujxGddK0Kj"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AhaQCeU1QRLUW7Jgwe/Ngi/cRajC/E/xhGWE1c5qOOS6",
+          "segmentId": "G5efRSidlRoToRdO"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR VX LAX 124.65N10NR VX EWR 124.65N10NR USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100G",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 371,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 371,
+          "flight": {
+            "carrier": "B6",
+            "number": "123"
+          },
+          "id": "G3BwSaQbP1c9JoEf",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LSy568Q5p9Tcs0vZ",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-05T10:36-07:00",
+            "departureTime": "2016-05-05T07:25-04:00",
+            "origin": "JFK",
+            "destination": "LAX",
+            "originTerminal": "5",
+            "destinationTerminal": "3",
+            "duration": 371,
+            "onTimePerformance": 90,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 324,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 324,
+          "flight": {
+            "carrier": "B6",
+            "number": "24"
+          },
+          "id": "G0q8zCkJYxceCeUc",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LszOCtAGmsjqAQGY",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-07T14:49-04:00",
+            "departureTime": "2016-05-07T06:25-07:00",
+            "origin": "LAX",
+            "destination": "JFK",
+            "originTerminal": "3",
+            "destinationTerminal": "5",
+            "duration": 324,
+            "onTimePerformance": 60,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "NYC",
+          "destination": "LAX",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "LAX",
+          "destination": "NYC",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "G0q8zCkJYxceCeUc"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "G3BwSaQbP1c9JoEf"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "NYC B6 LAX 124.65PITAUEN5 B6 NYC 124.65PITAUEN5 USD 249.30 END ZP JFK LAX XT 18.70US 8.00ZP 11.20AY 9.00XF JFK4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj1002",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "1960"
+          },
+          "id": "GJitEhOJ0fWfRN1O",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 2,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LdKhJrx-IXt4z8pe",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T13:52-07:00",
+            "departureTime": "2016-05-05T10:59-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "onTimePerformance": 70,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 313,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 313,
+          "flight": {
+            "carrier": "UA",
+            "number": "247"
+          },
+          "id": "GSgowfwQKQrnRgcq",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LJanhDg4aVwhVNZG",
+            "aircraft": "777",
+            "arrivalTime": "2016-05-07T15:13-04:00",
+            "departureTime": "2016-05-07T07:00-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 313,
+            "onTimePerformance": 90,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GSgowfwQKQrnRgcq"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GJitEhOJ0fWfRN1O"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100A",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "1960"
+          },
+          "id": "GJitEhOJ0fWfRN1O",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 2,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LdKhJrx-IXt4z8pe",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T13:52-07:00",
+            "departureTime": "2016-05-05T10:59-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "onTimePerformance": 70,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 322,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 322,
+          "flight": {
+            "carrier": "UA",
+            "number": "1807"
+          },
+          "id": "GWS8A5FiwLKjN7PA",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 2,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LiWifP0bygTif8So",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-07T21:57-04:00",
+            "departureTime": "2016-05-07T13:35-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 322,
+            "onTimePerformance": 80,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GWS8A5FiwLKjN7PA"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GJitEhOJ0fWfRN1O"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj1008",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "333"
+          },
+          "id": "GALzIlq7KqOyvKl4",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "L-B+KEIaWM0e2FaR",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T14:53-07:00",
+            "departureTime": "2016-05-05T12:00-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 318,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 318,
+          "flight": {
+            "carrier": "UA",
+            "number": "502"
+          },
+          "id": "GIwnkW3REnjewmhr",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LJHF8LxLTd1chqnY",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-07T14:18-04:00",
+            "departureTime": "2016-05-07T06:00-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 318,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GIwnkW3REnjewmhr"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GALzIlq7KqOyvKl4"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100K",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 371,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 371,
+          "flight": {
+            "carrier": "B6",
+            "number": "123"
+          },
+          "id": "G3BwSaQbP1c9JoEf",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LSy568Q5p9Tcs0vZ",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-05T10:36-07:00",
+            "departureTime": "2016-05-05T07:25-04:00",
+            "origin": "JFK",
+            "destination": "LAX",
+            "originTerminal": "5",
+            "destinationTerminal": "3",
+            "duration": 371,
+            "onTimePerformance": 90,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 325,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 325,
+          "flight": {
+            "carrier": "B6",
+            "number": "1124"
+          },
+          "id": "GK+QNpEZIVnRGR-n",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "Lvs7YtIhuLDeIiX4",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-08T00:55-04:00",
+            "departureTime": "2016-05-07T16:30-07:00",
+            "origin": "LAX",
+            "destination": "JFK",
+            "originTerminal": "3",
+            "destinationTerminal": "5",
+            "duration": 325,
+            "onTimePerformance": 70,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "NYC",
+          "destination": "LAX",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "LAX",
+          "destination": "NYC",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "G3BwSaQbP1c9JoEf"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "GK+QNpEZIVnRGR-n"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "NYC B6 LAX 124.65PITAUEN5 B6 NYC 124.65PITAUEN5 USD 249.30 END ZP JFK LAX XT 18.70US 8.00ZP 11.20AY 9.00XF JFK4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj1003",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "1960"
+          },
+          "id": "GJitEhOJ0fWfRN1O",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 2,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LdKhJrx-IXt4z8pe",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T13:52-07:00",
+            "departureTime": "2016-05-05T10:59-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "onTimePerformance": 70,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 313,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 313,
+          "flight": {
+            "carrier": "UA",
+            "number": "1623"
+          },
+          "id": "GEnhsp5+CzF3oOtx",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 8,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LYnzNddEWGo76IC-",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-07T23:18-04:00",
+            "departureTime": "2016-05-07T15:05-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 313,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GEnhsp5+CzF3oOtx"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GJitEhOJ0fWfRN1O"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj1004",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "333"
+          },
+          "id": "GALzIlq7KqOyvKl4",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "L-B+KEIaWM0e2FaR",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T14:53-07:00",
+            "departureTime": "2016-05-05T12:00-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 313,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 313,
+          "flight": {
+            "carrier": "UA",
+            "number": "1729"
+          },
+          "id": "GW5DBI+XHhVOjG2e",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "L0Td9cptghFe87l0",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-08T00:45-04:00",
+            "departureTime": "2016-05-07T16:32-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 313,
+            "onTimePerformance": 90,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GALzIlq7KqOyvKl4"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GW5DBI+XHhVOjG2e"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj1005",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "333"
+          },
+          "id": "GALzIlq7KqOyvKl4",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "L-B+KEIaWM0e2FaR",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T14:53-07:00",
+            "departureTime": "2016-05-05T12:00-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 313,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 313,
+          "flight": {
+            "carrier": "UA",
+            "number": "1623"
+          },
+          "id": "GEnhsp5+CzF3oOtx",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 8,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LYnzNddEWGo76IC-",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-07T23:18-04:00",
+            "departureTime": "2016-05-07T15:05-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 313,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GALzIlq7KqOyvKl4"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GEnhsp5+CzF3oOtx"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100E",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 367,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 367,
+          "flight": {
+            "carrier": "B6",
+            "number": "23"
+          },
+          "id": "G2C8KhUvlL+kaJiZ",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "L7krvrjVfz0jUUvB",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-05T09:07-07:00",
+            "departureTime": "2016-05-05T06:00-04:00",
+            "origin": "JFK",
+            "destination": "LAX",
+            "originTerminal": "5",
+            "destinationTerminal": "3",
+            "duration": 367,
+            "onTimePerformance": 70,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 324,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 324,
+          "flight": {
+            "carrier": "B6",
+            "number": "24"
+          },
+          "id": "G0q8zCkJYxceCeUc",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LszOCtAGmsjqAQGY",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-07T14:49-04:00",
+            "departureTime": "2016-05-07T06:25-07:00",
+            "origin": "LAX",
+            "destination": "JFK",
+            "originTerminal": "3",
+            "destinationTerminal": "5",
+            "duration": 324,
+            "onTimePerformance": 60,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "NYC",
+          "destination": "LAX",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "LAX",
+          "destination": "NYC",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "G0q8zCkJYxceCeUc"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "G2C8KhUvlL+kaJiZ"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "NYC B6 LAX 124.65PITAUEN5 B6 NYC 124.65PITAUEN5 USD 249.30 END ZP JFK LAX XT 18.70US 8.00ZP 11.20AY 9.00XF JFK4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj1009",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "333"
+          },
+          "id": "GALzIlq7KqOyvKl4",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "L-B+KEIaWM0e2FaR",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T14:53-07:00",
+            "departureTime": "2016-05-05T12:00-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 322,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 322,
+          "flight": {
+            "carrier": "UA",
+            "number": "1807"
+          },
+          "id": "GWS8A5FiwLKjN7PA",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 2,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LiWifP0bygTif8So",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-07T21:57-04:00",
+            "departureTime": "2016-05-07T13:35-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 322,
+            "onTimePerformance": 80,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GALzIlq7KqOyvKl4"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GWS8A5FiwLKjN7PA"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100B",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "333"
+          },
+          "id": "GALzIlq7KqOyvKl4",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "L-B+KEIaWM0e2FaR",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T14:53-07:00",
+            "departureTime": "2016-05-05T12:00-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 324,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 324,
+          "flight": {
+            "carrier": "UA",
+            "number": "642"
+          },
+          "id": "GWRM+gVke0QimZzF",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 2,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LtG+FdMYzs7N3NUY",
+            "aircraft": "752",
+            "arrivalTime": "2016-05-07T18:40-04:00",
+            "departureTime": "2016-05-07T10:16-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 324,
+            "onTimePerformance": 70,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GALzIlq7KqOyvKl4"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GWRM+gVke0QimZzF"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj1007",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "1960"
+          },
+          "id": "GJitEhOJ0fWfRN1O",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 2,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LdKhJrx-IXt4z8pe",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T13:52-07:00",
+            "departureTime": "2016-05-05T10:59-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "onTimePerformance": 70,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 318,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 318,
+          "flight": {
+            "carrier": "UA",
+            "number": "502"
+          },
+          "id": "GIwnkW3REnjewmhr",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LJHF8LxLTd1chqnY",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-07T14:18-04:00",
+            "departureTime": "2016-05-07T06:00-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 318,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GIwnkW3REnjewmhr"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GJitEhOJ0fWfRN1O"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj1001",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "333"
+          },
+          "id": "GALzIlq7KqOyvKl4",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "L-B+KEIaWM0e2FaR",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T14:53-07:00",
+            "departureTime": "2016-05-05T12:00-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 313,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 313,
+          "flight": {
+            "carrier": "UA",
+            "number": "247"
+          },
+          "id": "GSgowfwQKQrnRgcq",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LJanhDg4aVwhVNZG",
+            "aircraft": "777",
+            "arrivalTime": "2016-05-07T15:13-04:00",
+            "departureTime": "2016-05-07T07:00-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 313,
+            "onTimePerformance": 90,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GALzIlq7KqOyvKl4"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GSgowfwQKQrnRgcq"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100F",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 367,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 367,
+          "flight": {
+            "carrier": "B6",
+            "number": "23"
+          },
+          "id": "G2C8KhUvlL+kaJiZ",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "L7krvrjVfz0jUUvB",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-05T09:07-07:00",
+            "departureTime": "2016-05-05T06:00-04:00",
+            "origin": "JFK",
+            "destination": "LAX",
+            "originTerminal": "5",
+            "destinationTerminal": "3",
+            "duration": 367,
+            "onTimePerformance": 70,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 325,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 325,
+          "flight": {
+            "carrier": "B6",
+            "number": "1124"
+          },
+          "id": "GK+QNpEZIVnRGR-n",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "Lvs7YtIhuLDeIiX4",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-08T00:55-04:00",
+            "departureTime": "2016-05-07T16:30-07:00",
+            "origin": "LAX",
+            "destination": "JFK",
+            "originTerminal": "3",
+            "destinationTerminal": "5",
+            "duration": 325,
+            "onTimePerformance": 70,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "NYC",
+          "destination": "LAX",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "LAX",
+          "destination": "NYC",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "G2C8KhUvlL+kaJiZ"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "GK+QNpEZIVnRGR-n"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "NYC B6 LAX 124.65PITAUEN5 B6 NYC 124.65PITAUEN5 USD 249.30 END ZP JFK LAX XT 18.70US 8.00ZP 11.20AY 9.00XF JFK4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj1006",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 353,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 353,
+          "flight": {
+            "carrier": "UA",
+            "number": "1960"
+          },
+          "id": "GJitEhOJ0fWfRN1O",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 2,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LdKhJrx-IXt4z8pe",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-05T13:52-07:00",
+            "departureTime": "2016-05-05T10:59-04:00",
+            "origin": "EWR",
+            "destination": "LAX",
+            "originTerminal": "C",
+            "destinationTerminal": "7",
+            "duration": 353,
+            "onTimePerformance": 70,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 313,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 313,
+          "flight": {
+            "carrier": "UA",
+            "number": "1729"
+          },
+          "id": "GW5DBI+XHhVOjG2e",
+          "cabin": "COACH",
+          "bookingCode": "G",
+          "bookingCodeCount": 9,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "L0Td9cptghFe87l0",
+            "aircraft": "757",
+            "arrivalTime": "2016-05-08T00:45-04:00",
+            "departureTime": "2016-05-07T16:32-07:00",
+            "origin": "LAX",
+            "destination": "EWR",
+            "originTerminal": "7",
+            "destinationTerminal": "C",
+            "duration": 313,
+            "onTimePerformance": 90,
+            "mileage": 2447,
+            "meal": "Food for Purchase",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "EWR",
+          "destination": "LAX",
+          "basisCode": "GAA10AHN"
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "carrier": "UA",
+          "origin": "LAX",
+          "destination": "EWR",
+          "basisCode": "GAA10AHN"
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GW5DBI+XHhVOjG2e"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AEFn1IwCq3D8SmpmJq4c/m0++qk+Q5KckzAdWhZWPXOY",
+          "segmentId": "GJitEhOJ0fWfRN1O"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "EWR UA LAX 124.65GAA10AHN UA EWR 124.65GAA10AHN USD 249.30 END ZP EWR LAX XT 18.70US 8.00ZP 11.20AY 9.00XF EWR4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }, {
+      "kind": "qpxexpress#tripOption",
+      "saleTotal": "USD592.40",
+      "id": "Q7xhlVL9Hk8N4vSn1mIAj100H",
+      "slice": [{
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 371,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 371,
+          "flight": {
+            "carrier": "B6",
+            "number": "2023"
+          },
+          "id": "GKNuGmdXUDtXWpP5",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "0",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "Ls5+i4tH40kpqh3K",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-06T01:51-07:00",
+            "departureTime": "2016-05-05T22:40-04:00",
+            "origin": "JFK",
+            "destination": "LAX",
+            "originTerminal": "5",
+            "destinationTerminal": "3",
+            "duration": 371,
+            "onTimePerformance": 50,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }, {
+        "kind": "qpxexpress#sliceInfo",
+        "duration": 324,
+        "segment": [{
+          "kind": "qpxexpress#segmentInfo",
+          "duration": 324,
+          "flight": {
+            "carrier": "B6",
+            "number": "24"
+          },
+          "id": "G0q8zCkJYxceCeUc",
+          "cabin": "COACH",
+          "bookingCode": "P",
+          "bookingCodeCount": 7,
+          "marriedSegmentGroup": "1",
+          "leg": [{
+            "kind": "qpxexpress#legInfo",
+            "id": "LszOCtAGmsjqAQGY",
+            "aircraft": "32S",
+            "arrivalTime": "2016-05-07T14:49-04:00",
+            "departureTime": "2016-05-07T06:25-07:00",
+            "origin": "LAX",
+            "destination": "JFK",
+            "originTerminal": "3",
+            "destinationTerminal": "5",
+            "duration": 324,
+            "onTimePerformance": 60,
+            "mileage": 2468,
+            "meal": "Meal",
+            "secure": true
+          }]
+        }]
+      }],
+      "pricing": [{
+        "kind": "qpxexpress#pricingInfo",
+        "fare": [{
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "NYC",
+          "destination": "LAX",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }, {
+          "kind": "qpxexpress#fareInfo",
+          "id": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "carrier": "B6",
+          "origin": "LAX",
+          "destination": "NYC",
+          "basisCode": "PITAUEN5",
+          "private": true
+        }],
+        "segmentPricing": [{
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "G0q8zCkJYxceCeUc"
+        }, {
+          "kind": "qpxexpress#segmentPricing",
+          "fareId": "AIPz6hHkKJ9no/4EqygxqQZnubsG4KHZ4gowwZEC+vwm2+EeMkxUHS3NF3YgrDFF3xcWbnxMz2T2a7NOqjlBs8kZMDCJOTtewYpAtIc1tARjAbVYRuX6mlkIxTwvnXFD2Npq99kkHDsGpfE",
+          "segmentId": "GKNuGmdXUDtXWpP5"
+        }],
+        "baseFareTotal": "USD249.30",
+        "saleFareTotal": "USD249.30",
+        "saleTaxTotal": "USD46.90",
+        "saleTotal": "USD296.20",
+        "passengers": {
+          "kind": "qpxexpress#passengerCounts",
+          "adultCount": 2
+        },
+        "tax": [{
+          "kind": "qpxexpress#taxInfo",
+          "id": "US_001",
+          "chargeType": "GOVERNMENT",
+          "code": "US",
+          "country": "US",
+          "salePrice": "USD18.70"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "AY_001",
+          "chargeType": "GOVERNMENT",
+          "code": "AY",
+          "country": "US",
+          "salePrice": "USD11.20"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "XF",
+          "chargeType": "GOVERNMENT",
+          "code": "XF",
+          "country": "US",
+          "salePrice": "USD9.00"
+        }, {
+          "kind": "qpxexpress#taxInfo",
+          "id": "ZP",
+          "chargeType": "GOVERNMENT",
+          "code": "ZP",
+          "country": "US",
+          "salePrice": "USD8.00"
+        }],
+        "fareCalculation": "NYC B6 LAX 124.65PITAUEN5 B6 NYC 124.65PITAUEN5 USD 249.30 END ZP JFK LAX XT 18.70US 8.00ZP 11.20AY 9.00XF JFK4.50 LAX4.50",
+        "latestTicketingTime": "2016-04-25T23:59-04:00",
+        "ptc": "ADT"
+      }]
+    }]
+  }
+}
