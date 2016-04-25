@@ -1,5 +1,13 @@
 package flight
 
+import (
+	"bytes"
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"net/http"
+)
+
 type Passengers struct {
 	Kind              string `json:kind`
 	AdultCount        int    `json:adultCount`
@@ -126,22 +134,22 @@ type SegmentPrice struct {
 }
 
 type Trips struct {
-	Kind                string     `json:kind`
-	RequestId           string     `json:requestId`
-	Data                TripData   `json:data`
-	Options             TripOption `json:tripOption`
-	Pricing             []Price    `json:pricing`
-	SegmentPricing      []SegmentPrice
-	BaseFareTotal       string     `json:baseFareTotal`
-	SaleFareTotal       string     `json:saleFareTotal`
-	SaleTaxTotal        string     `json:saleTaxTotal`
-	SaleTotal           string     `json:saleTotal`
-	Passengers          Passengers `json:passengers`
-	Tax                 Tax        `json:tax`
-	FareCalculation     string     `json:fareCalculation`
-	LatestTicketingTime string     `json:latestTicketingTime`
-	PTC                 string     `json:ptc`
-	Refundable          bool       `json:refundable`
+	Kind                string         `json:kind`
+	RequestId           string         `json:requestId`
+	Data                TripData       `json:data`
+	Options             TripOption     `json:tripOption`
+	Pricing             []Price        `json:pricing`
+	SegmentPricing      []SegmentPrice `json:segmentPricing`
+	BaseFareTotal       string         `json:baseFareTotal`
+	SaleFareTotal       string         `json:saleFareTotal`
+	SaleTaxTotal        string         `json:saleTaxTotal`
+	SaleTotal           string         `json:saleTotal`
+	Passengers          Passengers     `json:passengers`
+	Tax                 Tax            `json:tax`
+	FareCalculation     string         `json:fareCalculation`
+	LatestTicketingTime string         `json:latestTicketingTime`
+	PTC                 string         `json:ptc`
+	Refundable          bool           `json:refundable`
 }
 
 type Flight struct {
@@ -181,17 +189,46 @@ type Segment struct {
 	Legs                        []Leg  `json:leg`
 	ConnectionDuration          int    `json:connectionDuration`
 }
+
 type ResponseSlice struct {
 	Kind     string    `json:kind`
 	Duration string    `json:duration`
-	Segment  []Segment `segment`
+	Segment  []Segment `json:segment`
 }
+
 type Response struct {
 	Kind  string          `json:kind`
 	Trips Trips           `json:trips`
 	Slice []ResponseSlice `json:slice`
 }
 
-func main() {
+type GoFlyer interface {
+	GetFlight(Request) (Response, error)
+}
 
+type GoFlight struct {
+	ApiKey string
+}
+
+func (flight *GoFlight) GetFlight(apiRequest Request) (Response, error) {
+	url := fmt.Sprintf("https://www.googleapis.com/qpxExpress/v1/trips/search?key=%s", flight.ApiKey)
+	fmt.Println("URL:>", url)
+	jsonData, err := json.Marshal(apiRequest)
+	req, err := http.NewRequest("POST", url, bytes.NewBuffer(jsonData))
+	req.Header.Set("X-Custom-Header", "myvalue")
+	req.Header.Set("Content-Type", "application/json")
+
+	client := &http.Client{}
+	resp, err := client.Do(req)
+	if err != nil {
+		panic(err)
+	}
+	defer resp.Body.Close()
+
+	fmt.Println("response Status:", resp.Status)
+	fmt.Println("response Headers:", resp.Header)
+	var response Response
+	body, _ := ioutil.ReadAll(resp.Body)
+	err = json.Unmarshal(body, &response)
+	return response, err
 }
