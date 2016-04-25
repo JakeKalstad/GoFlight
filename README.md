@@ -13,17 +13,10 @@ Go library to interact with the QPX Google Flight API
 ### Installation
     go get "github.com/JakeKalstad/GoFlight"
 
-### Todos
-
- - Write Tests
- - Rethink Github Save
- - Add Code Comments
- - Add Night Mode
-
 License
 ----
-
 MIT
 
 
 **Free Software, Hell Yeah!**
+> https://www.youtube.com/watch?v=9sJUDx7iEJw
